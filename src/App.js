@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Clients from './components/Clients';
+import Custom from './components/Custom';
+import Sagittis from './components/Sagittis';
+import Together from './components/Together';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Custom />
+      <Together />
+      <Clients />
+      
+    </>
   );
 }
 
